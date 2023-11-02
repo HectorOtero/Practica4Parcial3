@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Varela+Round&display=swap');
+
+.navbar img{
+    width: 7rem;
+    height: auto;
+}
+
+body{ 
+    text-align: justify;
+    background-color: #C2C0C9;
+}
+
+.titulos{
+    font-family: Agbalumo;
+}
+
+.titulos-blancos{
+    font-family: Agbalumo;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.textos{
+    font-family: Varela Round;
+}
+
+.navbar{
+    max-height: 6rem;
+}
+
+.img-navbar{
+
+    max-height: 4rem;
+    max-width: 4rem;
+    border-radius: 1rem;
+}
+
+.banner{
+    
+    background-image: url("../img/Banner.webp");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 36rem;
+    max-width: auto;
+    
+}
+.banner-negro{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:3rem;
+    position: relative;
+    height: 36rem;
+    max-width: auto;
+    
+}
+
+.foto-mia{
+    max-width: 12rem;
+    max-height: auto;
+    border-radius: 2rem;
+    border-color: black;
+}
+
+.img-card{
+    max-width: auto;
+    max-height: 11rem;
+}
+
+@media (max-width: 1000px) {
+    .banner{
+        max-width: 1000px;
+        max-height: auto;
+    }    
+}
+
+.texto-acerca-de-mi{
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-family: Varela Round;
+}
